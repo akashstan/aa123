@@ -1,6 +1,10 @@
-def add(a,j)
+def add(a,j):
  return a+j
-add(a,j)
-def square(x)
+def square(x):
  return x**2
-square(x)
+def calculate1(name,a,j):
+ return name(a,j)
+def calculate2(name,x):
+ return name(x)
+print(calculate1(add,3,4))
+print(calculate2(square,5))
