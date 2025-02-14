@@ -1,5 +1,5 @@
 def add(a,j)
- reaturn a+j
+ return a+j
 add(a,j)
 def square(x)
  return x**2
