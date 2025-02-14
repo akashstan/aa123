@@ -1,0 +1,6 @@
+def add(a,j)
+ reaturn a+j
+add(a,j)
+def square(x)
+ return x**2
+square(x)
